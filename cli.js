@@ -21,7 +21,7 @@ if (process.argv.indexOf('-v') !== -1 || process.argv.indexOf('--version') !== -
   process.exit(0)
 } */
 
-ordbok({ word: 'lesende' }, function (err, data) {
+ordbok({ word: 'løsninger' }, function (err, data) {
   if (err) {
     throw err;
   }
